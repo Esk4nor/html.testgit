@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.a{
+    height: 33vh;
+}
+.a, .b, .c, .d, .e, .f{
+    background-color: lightgray;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.b{
+    height: 33vh;
+    width: 100%;
+}
+.wrap_2{
+    display: flex;
+    width: 100%;
+}
+.c, .d, .e{
+    width: 33.3%;
+    height: 33vh;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.f{
+    width: 20%;
+}
+.wraper{
+    display: flex;
+}
